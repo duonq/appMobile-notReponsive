@@ -1,0 +1,502 @@
+@font-face {
+    font-family: poppinBold;
+    src: url("../poppins-font/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family: poppinRegular;
+    src: url("../poppins-font/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: poppinsSemiBold;
+    src: url("../poppins-font/Poppins-SemiBold.ttf");
+}
+@font-face {
+    font-family: poppinMedium;
+    src: url("../poppins-font/Poppins-Medium.ttf");
+}
+.clearfix{
+    overflow: hidden;
+    clear: both;
+}
+.content{
+    width: 1170px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    padding-top: 93px;
+}
+.logo{
+    padding-top: 16px;
+    width: 200px;
+    float: left;
+}
+.logo a{
+    font-family: poppinBold;
+    color: #fcae61;
+    font-size: 30px;
+    line-height: 44px;
+}
+.logo a span{
+    color: #242f51;
+}
+nav{
+    float: right;
+    padding-top: 16px;
+    margin-right: 50px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+nav ul li{
+    float: left;
+} 
+footer ul li a,
+nav ul li a{
+    display: block;
+    padding: 8px 15px;
+    font-family: poppinRegular;
+    color: #1d3069;
+    font-size: 16px;
+    line-height: 44px;
+}
+input{
+    outline: none;
+    cursor: pointer;
+}
+.button{
+    padding-top: 16px;
+    float: right;
+    
+}
+.buttonsec6{
+    line-height: 57px;
+    float: left;
+    text-align: center;
+}
+.buttonsec9,
+.buttonsec6,
+.buttonBanner,
+.button .free{
+    width: 170px;
+    height: 57px;
+    border: none;
+    background-color: #2500f9;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 30px;
+    font-family: poppinBold;
+}
+#banner{
+    background:url("../images/bg_banner.png");
+}
+#banner .leftBanner{
+    float: left;
+    width: 630px;
+    padding-top: 242px;
+}
+#banner .leftBanner h2{
+    font-size: 72px;
+    line-height: 75px;
+    color:#1d3069 ;
+    font-family: poppinsSemiBold;
+}
+#banner .leftBanner p{
+    margin-top: 30px;
+    font-family: poppinRegular;
+    color: #616368;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.rightBanner{
+    float: right;
+    padding: 55px 0;
+}
+
+#sec2{
+    margin-top: 121px;
+}
+#sec2 p{
+    text-align: center;
+    font-family: poppinRegular;
+    font-size: 16px;
+}
+#sec2 .logoCopamny{
+    margin: 32px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+#sec3{
+    margin-top: 194px;
+}
+.imgL{
+    margin-left: -100px;
+    /* background: url("../images/sec3_bg.png")top center/cover no-repeat; */
+}
+.textL{
+    margin-left: -120px;
+}
+.appmobi{
+    display: flex;
+    justify-content: space-evenly;
+}
+.avt_sec10,
+.appmobi2{
+    margin-top: 90px;
+}
+.avt_sec10 img,
+.appmobi2 img{
+    height: 100%;
+}
+.textR{
+    width: 430px;
+}
+#sec3 .textR .awesome{
+    font-family: poppinsSemiBold;
+    font-size: 36px;
+    line-height: 46px;
+}
+#sec3 .textR .increase{
+    font-family: poppinRegular;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+#sec3 .appmobi2 .textsec3{
+    margin-left: 57px;
+}
+.fast{
+    font-size: 20px;
+    font-family: poppinBold;
+    line-height: 58px;
+}
+
+.get{
+    font-size: 16px;
+    font-family: poppinRegular;
+    color: #616368;
+    line-height: 26px;
+}
+.color_red{
+    color: #f55767;
+}
+.color_blue{
+    color: #2563ff;
+}
+.color_green{
+    color: #40975f;
+}
+#sec4,
+#sec6{
+    margin: 130px 0;
+}
+.smart{
+    width: 430px;
+    padding: 0 100px;
+    font-size: 40px;
+    color: #242f51;
+    line-height: 50px;
+    font-family: poppinsSemiBold;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+#sec4 .textR{
+    padding: 30px 50px;
+}
+#sec5 .divthird{
+    padding: 0 70px;
+}
+#sec6 .textR{
+    padding: 100px 0px;
+}
+#sec6 .get{
+    margin-bottom: 26px;
+}
+.design{
+    font-size: 36px;
+    line-height: 46px;
+    color: #242f51;
+    font-family: poppinsSemiBold;
+}
+#sec7 .textR{
+    width: 650px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sec7 .design{
+    padding: 0 80px;
+    margin-bottom: 30px;
+}
+
+#sec7 .appmobi{
+    width: 1030px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+#sec7 .divthird{
+    padding: 0 30px;
+}
+#sec7 .divthird .fast{
+    color: #242f51;
+}
+#sec8{
+    /* margin-top: 150px;
+    margin-left: 90px; */
+    margin: 150px 0 90px 150px;
+}
+#sec8 .appmobi{
+    margin-right: -100px;
+    width: 100%;
+}
+#sec9 .design,
+#sec8 .design{
+    margin-bottom: 30px;
+}
+#sec8 .get{
+    margin-bottom: 60px;
+}
+.secLeft{
+    width: 50%;
+}
+
+.center{
+    width: 650px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    background-color: #fff;
+    margin-top: 90px;
+}
+.btn{
+    margin-left: -5px;
+}
+.btnAn,
+.btn{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #2500f9;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 30px;
+    font-family: poppinBold;
+}
+.btnAn{
+    color: #616368;
+    background-color: #fff !important;
+}
+#sec10 .star,
+#sec9 .appmobi{
+    margin-top: 30px;
+}
+#sec9 .frames{
+    width: 319px;
+    text-align: center;
+}
+#sec9 .frame_header{
+    background-image: linear-gradient(#fff,#f4f7f9);
+    
+}
+#sec9 .frame_header .mony{
+    font-size: 60px;
+    line-height: 58px;
+    font-family: poppinsSemiBold;
+    color: #242f51;
+    padding-top: 70px;
+}
+#sec9 .frame_header .mony span{
+    font-size: 16px;
+    line-height: 28px;
+    font-family: poppinRegular;
+}
+#sec9 .frame_header .business{
+    font-size: 20px;
+    line-height: 28px;
+    color: #242f51;
+    font-family: poppinSemiBold;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#sec9 .frame_header .forsamll{
+    font-size: 16px;
+    line-height: 28px;
+    font-family: poppinRegular;
+    color: #999ca5;
+    padding-bottom: 30px;
+}
+#sec9 .frame_body{
+
+}
+#sec9 .frame_body .deag{
+    padding: 30px 80px;
+    color: #999ca5;
+    font-size: 16px;
+    line-height: 48px;
+    font-family: poppinRegular;
+}
+#sec9 .buttonsec9{
+    margin-bottom: 30px;
+}
+#sec9 .orstart{
+    color: #2500f9;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: poppinRegular;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#sec9 .shadow{
+    height: 100%;
+    box-shadow: 4px 50px 40px rgba(192, 192, 192, 0.3);
+    margin-right: -135px;
+}
+#sec9 .boder{
+    border: 2px solid #ebebeb;
+    border-radius: 8px;
+    margin-bottom: 103px;
+    margin-left: -135px;
+}
+#sec10{
+    margin-top: 150px;
+    margin-bottom: 170px;
+}
+#sec10 .textR{
+    padding: 0 95px;
+}
+#sec10 .user{
+    font-size: 20px;
+    line-height: 58px;
+    font-family: poppinsSemiBold;
+    color: #242f51;
+    font-weight: bold;
+}
+#sec10 .star i{
+    font-size: 20px;
+    line-height: 58px;
+    color: #ffcc00;
+}
+.avt_sec10{
+    display: flex;
+}
+#sec10 .textavt{
+    margin-left: 25px;
+    font-size: 18px;
+}
+#sec10 .textavt .name{
+    line-height: 58px;
+    font-family: poppinsSemiBold;
+    color: #242f51;
+}
+#sec10 .textavt .middle{
+    line-height: 28px;
+    color: #616368;
+    font-family: poppinRegular;
+}
+#sec11{
+    margin: 122px 0;
+}
+#sec11 .frequently{
+    font-size: 40px;
+    line-height: 58px;
+    font-family: poppinsSemiBold;
+    color: #242f51;
+    margin-bottom: 30px;
+}
+#sec11 .center{
+    margin-bottom: 60px;
+}
+#sec11 .body_sec11{
+    width: 950px;
+    margin: 0 auto;
+}
+#sec11 .secone{
+    background-color: #f5f7fa;
+    padding: 30px 100px 70px 50px;
+}
+#sec11 .secone .howto{
+    color: #242f51;
+    font-size: 20px;
+    line-height: 58px;
+    font-family: poppinsSemiBold;
+}
+#sec11 .sectwo{
+    margin-top: 10px;
+    background-color: #f5f7fa;
+    color: #242f51;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    font-size: 20px;
+    line-height: 58px;
+    font-family: poppinMedium;
+    font-weight: bold;
+}
+#sec12 .download{
+    font-size: 48px;
+    line-height: 58px;
+    font-family: poppinsSemiBold;
+    color: #242f51;
+}
+#sec12 .appmobi img{
+    margin-top: 30px;
+}
+#sec12 .textL{
+    margin-left: 100px;
+}
+footer{
+    height: 530px;
+    background-color: #09142e;
+    margin-top: -63px;
+}
+.logoFooter{
+    float: none !important;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+
+footer p,
+footer ul li a,
+.text_white{
+    color: #fff !important;
+    
+}
+.follow{
+    text-align: center;
+    margin-top: 30px;
+}
+.follow a{
+    padding: 0 15px;
+    font-size: 32px;
+    color: #fff;
+    opacity: 0.4;
+}
+.opacity{
+    opacity: 1 !important;
+}
+.fa-instagram{
+    transform: rotate(-25deg);
+}
+
+footer p{
+    opacity: 0.4;
+    margin-top: 90px;
+    text-align: center;
+}
